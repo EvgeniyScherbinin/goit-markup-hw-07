@@ -3,19 +3,8 @@
     margin-bottom: 94px;
   }
   
-  /* .list .list-item::before {
-    display: inline-block;
-    content: "";
-    width: 120px;
-    height: 270px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: 1px solid;
-    background-position: center;
-  } */
-  .ico-advantage {
+  .list__ico-advantage {
     display: block;
-    /* object-fit: contain; */
     margin-bottom: 30px;
     height: 100%;
     width: 100%;
@@ -33,11 +22,11 @@
     margin-right: 30px;
   }
   
-  .advantage-div .list-item {
+  .advantage-div .list__item {
     background-color: var(--background-color);
   }
   
-  .advantage-paragraph {
+  .list__advantage-paragraph {
     margin-right: 30px;
   }
   
@@ -45,7 +34,7 @@
     align-content: stretch;
   }
   
-  .advantage-title {
+  .list__advantage-title {
     color: var(--title-color);
     font-weight: 700;
     font-size: 14px;
@@ -54,7 +43,7 @@
     text-transform: uppercase;
   }
   
-  .advantage-paragraph {
+  .list__advantage-paragraph {
     font-weight: 400px;
     font-size: 14px;
     line-height: 1.7;
