@@ -1,4 +1,4 @@
-.logo-second-footer {
+.footer-logo__logo-second-footer {
     color: var(--background-color);
     font-family: "Raleway";
     font-weight: 700px;
@@ -52,4 +52,12 @@
   
   .footer-list .footer-contacts {
     text-decoration: none;
+  }
+
+  .footer-logo__logo-first {
+    color: var(--accent-color);
+    font-family: "Raleway";
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1.2;
   }
