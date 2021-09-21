@@ -11,7 +11,7 @@
     margin-bottom: 94px;
   }
   
-  .clients-icon {
+  .clients-list__clients-icon {
     padding-right: 25px;
     padding-left: 25px;
     justify-content: center;
@@ -19,7 +19,7 @@
     align-items: center;
   }
   
-  .clients-link {
+  .clients-list__clients-link {
     display: flex;
     width: 100%;
     height: 100%;
@@ -27,7 +27,7 @@
     align-items: center;
   }
   
-  .clients-item {
+  .clients-list__clients-item {
     width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
@@ -44,7 +44,7 @@
     }
   }
   
-  .clients-item use {
+  .clients-list__clients-item use {
     fill: #afb1b8;
   }
   

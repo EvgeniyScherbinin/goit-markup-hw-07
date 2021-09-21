@@ -84,7 +84,7 @@ body {
   list-style: none;
 }
 
-.social-item {
+.team-social__social-item {
   height: 44px;
   width: 44px;
   display: flex;
@@ -98,13 +98,13 @@ body {
   transition-duration: 250ms;
 }
 
-.social-item:hover use, .social-item:hover {
+.team-social__social-item:hover use, .team-social__social-item:hover {
   fill: var(--background-color);
   background-color: var(--accent-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-item:last-child {
+.team-social__social-item:last-child {
   margin-right: 0px;
 }
 
@@ -144,7 +144,7 @@ body {
   background-color: var(--accent-color);
 }
 
-.social-icon {
+.team-social__social-icon {
   fill: #afb1b8;
 }
 
@@ -377,7 +377,7 @@ body {
   margin-bottom: 94px;
 }
 
-.projects-title {
+.projects-list__projects-title {
   background-color: #2f303acc;
   color: var(--background-color);
   width: 370px;
@@ -463,7 +463,7 @@ body {
   margin-bottom: 94px;
 }
 
-.clients-icon {
+.clients-list__clients-icon {
   padding-right: 25px;
   padding-left: 25px;
   justify-content: center;
@@ -471,7 +471,7 @@ body {
   align-items: center;
 }
 
-.clients-link {
+.clients-list__clients-link {
   display: flex;
   width: 100%;
   height: 100%;
@@ -479,7 +479,7 @@ body {
   align-items: center;
 }
 
-.clients-item {
+.clients-list__clients-item {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -488,16 +488,16 @@ body {
   transition-duration: 250ms;
 }
 
-.clients-item:hover use, .clients-item:hover {
+.clients-list__clients-item:hover use, .clients-list__clients-item:hover {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.clients-item:not(:last-child) {
+.clients-list__clients-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-item use {
+.clients-list__clients-item use {
   fill: #afb1b8;
 }
 
